@@ -98,8 +98,8 @@ li{
     text-align: start;
     font-size: 1.4rem;
     font-style: italic;
-    display: block;
-    padding: 1rem 3rem;
+    display: none;
+    padding: 1rem 3rem 0 ;
     color: var(--c-light-red);
 }
 
