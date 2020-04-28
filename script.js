@@ -1,19 +1,15 @@
 const email = document.getElementById('email')
 const form = document.getElementById('form')
-const submitBtn = document.getElementById('submit')
 const errorMsg = document.querySelector('.error-msg')
 
-const emailVal = email.value.trim()
-
-console.log(email)
-console.log(emailVal)
 
 
 
-submitBtn.addEventListener('click', (e) => {
+form.addEventListener('submit', (e) => {
 
     e.preventDefault()
 
+    const emailVal = email.value.trim()
 
     if(emailVal == '' || emailVal == null ){
         errorMsg.style.display = 'block'
